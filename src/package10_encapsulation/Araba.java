@@ -17,7 +17,7 @@ public class Araba { //POJO :planing old java onject---model class
         //this.motor = motor;
         //this.yil = yil;
         setMotor(motor); // cons abc cretae etmek icin parametre oarak giren motor datasi
-        // setMotor() methodu parametre olarak calisir
+        // setMotor() methodu parametre olarak calisir....
 
     }
 
@@ -27,6 +27,9 @@ public class Araba { //POJO :planing old java onject---model class
     }
 
     // encapsulated
+    /*
+    *******
+     */
 
     public String getModel() {
         return model;
