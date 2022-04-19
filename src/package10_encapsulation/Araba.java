@@ -28,7 +28,7 @@ public class Araba { //POJO :planing old java onject---model class
 
     // encapsulated
     /*
-    *******
+    ****pppp
      */
 
     public String getModel() {
