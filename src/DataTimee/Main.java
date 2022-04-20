@@ -20,7 +20,7 @@ public class Main {
         while (!cikilsinMi) {
             System.out.println("Lutfen \n1: Kayit al \n2 : Sansli kisi bul \n3: kisileri listele \n4: cikis ");
             System.out.println("Islem seciniz...");
-           int islem = scan.nextInt();
+            int islem = scan.nextInt();
 
             switch (islem) {
 
