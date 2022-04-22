@@ -45,7 +45,7 @@ public class Ranner {
 
         }
 
-        private static void cikis() {
+        public static void cikis() {
             System.out.println("Hoscakalin");
         }
     }

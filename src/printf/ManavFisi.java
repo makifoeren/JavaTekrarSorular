@@ -6,7 +6,7 @@ public class ManavFisi {
 Toplam tutarlari virgülden sonra iki basamak olacak sekilde sonrasi dikkate alinmyacak sekilde yazdirin
 miktar 1,2,3.5,2.5,6
 birim fiyat 2.3,2.29,4.1,2.3
-stis
+Satis fisi olusturun...
 String icin s veya S
 int icin d
 double icin f kullanilir
@@ -24,7 +24,7 @@ double icin f kullanilir
 
         for (int i = 0; i < urun.length; i++) {
 
-            System.out.printf("%-8s  %5.2fkg  $%5.2f  $%05.2f \n" ,urun[i],miktar[i],brFiyat[i],miktar[i],miktar[i]*brFiyat[i]);
+            System.out.printf("%-8s  %5.2fkg  $%5.2f  $%05.2f \n" ,urun[i],miktar[i],brFiyat[i],miktar[i]*brFiyat[i]);
 
         }
         System.out.println("=====================================");
