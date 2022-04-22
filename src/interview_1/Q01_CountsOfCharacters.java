@@ -22,7 +22,7 @@ public class Q01_CountsOfCharacters {
         System.out.println(Arrays.toString(arr));
 
         Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr)); // siraliyor
+        System.out.println(Arrays.toString(arr)); // siraliyor::::
 
         int toplam = 0;
 
