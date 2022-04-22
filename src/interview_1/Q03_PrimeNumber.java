@@ -27,8 +27,7 @@ public class Q03_PrimeNumber {
             }
             if (asalMi) System.out.println("sayi asaldir");
             else System.out.println("sayi asal degil");
-        }else System.out.println("sayi asal degil");
-
+        }else System.out.println("sayi asal degildir"); //bu else yi 0 ve 1 in asal sayi olmadigini gostermek icin ekledik
 
     }
 }
