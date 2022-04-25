@@ -1,10 +1,11 @@
-package aracKiralama;
+package Kitap;
 
 public class Runner {
 
     public static void main(String[] args) {
 
-        BilgilerClasss.arabalar();
+        Methods.anaMenu();
+
 
     }
 }
