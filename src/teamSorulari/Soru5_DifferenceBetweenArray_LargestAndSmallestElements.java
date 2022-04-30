@@ -12,22 +12,12 @@ public class Soru5_DifferenceBetweenArray_LargestAndSmallestElements {
        en kucuk elemanının  farkını bulan bir method create ediniz.
     */
 
-  public static void main(String[] args) {
+
+    public static void main(String[] args) {
         List<Integer> sayi = new ArrayList<>(Arrays.asList(4, 2, 6, 11));
         arrMethod(sayi);
-    }
 
-    private static void arrMethod(List<Integer> sayi) {
-
-        Optional<Integer> max = sayi.stream().reduce(Integer::max);
-        Optional<Integer> min = sayi.stream().reduce(Integer::min);
-
-
-        System.out.println(Collections.max(sayi) - Collections.min(sayi));
-
-    }
-
-       /* Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Array uzunlugunuzu giriniz...");
         int uzunluk = scan.nextInt();
         int arr[] = new int[uzunluk];
@@ -40,9 +30,19 @@ public class Soru5_DifferenceBetweenArray_LargestAndSmallestElements {
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println("Array in son elemni ile ilk elemanin farki : " + (arr[arr.length - 1] - arr[0]));
+    }
+
+    private static void arrMethod(List<Integer> sayi) {
+
+     Optional<Integer> max=   sayi.stream().reduce(Integer::max);
+
+      Optional<Integer> min=  sayi.stream().reduce(Integer::min);
+
+        System.out.println(Collections.max(sayi)-Collections.min(sayi));
 
 
-    }*/
+    }
+
 
     }
 
