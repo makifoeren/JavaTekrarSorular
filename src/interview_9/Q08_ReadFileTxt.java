@@ -25,7 +25,7 @@ public class Q08_ReadFileTxt {
 
         List<String > satirlar= Files.readAllLines(Paths.get("src/interview_9/Q08_FileText"), StandardCharsets.UTF_8);
         //StandardCharsets : UTF_8 dahil olmak uzere Charset icin sabitleri tanimlar..
-        //UTF_8 (Unicode Transformation Format)     8: 8 bitlik bir unicode donusum bicimidir..
+        //UTF_8 (Unicode Transformation Format)     8: 8 bitlik bir unicode donusum bicimidir.....
 
         for (String  each:satirlar
              ) {
