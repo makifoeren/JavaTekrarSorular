@@ -1,4 +1,4 @@
-package lambda_practice;
+package lambda_practice.lambda_practice;
 
 import java.util.stream.IntStream;
 
