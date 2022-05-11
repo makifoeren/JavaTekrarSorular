@@ -30,6 +30,7 @@ public class C6_Lambdada_ForLoop_Aralik_Kontrolu {
     public static void ilk30(int a) {
         IntStream.range(1, a).
                 forEach(t -> System.out.print(t + " "));
+        IntStream.range(1,a).forEach(t-> System.out.print(t+" "));
     }
     //S2:  1 den 30 kadar olan sayilari (30 dahil ) 1 2 3 .... seklinde siralayalim (for loopsuz)
     //rangeClosed(int startInclusive, int endInclusive)
@@ -88,4 +89,4 @@ public class C6_Lambdada_ForLoop_Aralik_Kontrolu {
 }
 //iterate bize sayilari istedigimiz sekilde yineletmeyi saglar yani buradaki ornekte 7ser7ser artmayi saglar
 //iterate icin bir baslangic degeri girilmeli ve artisin nasil olacagi belirtilmeli nerede biteceginide
-// limit() ile belirliyoruz
+// limit() ile belirliyoruz...
